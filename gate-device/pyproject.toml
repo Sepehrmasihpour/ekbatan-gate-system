@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "gate-device"
+version = "0.1.0"
+description = ""
+authors = ["sepehr masihpour"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pycryptodome = "^3.23.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
